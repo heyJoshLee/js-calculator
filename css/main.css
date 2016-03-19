@@ -1,0 +1,73 @@
+@import "normalize.css";
+
+div {
+  box-sizing: border-borx;
+}
+
+body {
+  padding-top: 50px;
+  background: snow url("../img/concrete_seamless.png") 0 0 no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  font-size: 20px;
+  color: snow;
+  text-align: center;
+}
+
+#output {
+  width: 100%;
+  height: 50px;
+  background: snow;
+}
+
+
+#calculator {
+  position: relative;
+  border-radius: 6%;
+  width: 330px;
+  height: 400px;
+  margin: 0 auto;
+  background: rgb(100, 139, 184);
+  padding: 5px 20px 0;
+  box-sizing: border-box;
+}
+
+.row {
+  display: block;
+  width: 100%;
+}
+
+.btn {
+  width: 100%;
+}
+
+
+ul {
+  padding: 0;
+}
+
+.row > li {
+  display: inline-block;
+  box-sizing: border-box;
+  border: 2px solid rgb(100, 139, 184);
+  width: 25%;
+  height: 50px;
+  float: left;
+  background: snow;
+  text-align: center;
+  box-sizing: border-box;
+  padding-top: 16px;
+  color: rgb(100, 139, 184);
+}
+
+.row >li:hover {
+  cursor: pointer;
+}
+
+a {
+  color: #2e3644;
+  text-decoration: none;
+  margin: 0px 0 0 20px;
+}
