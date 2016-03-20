@@ -10,7 +10,6 @@ $(".bk").on("click", function() {
   $output.html(text.substring(0, text.length - 1));
 });
 
-
 $(".clear").on("click", function() {
   $output.html("");
 });
@@ -23,5 +22,3 @@ $("#equals").on("click", function() {
 function calc(input) {
   return eval(input);
 }
-
-console.log(calc("1+ 2 * 2 /0"));
